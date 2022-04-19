@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function Navbar() {
   return (
@@ -17,13 +18,19 @@ export default function Navbar() {
   
       <ul className="md:flex md:items-center z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
         <li className="mx-4 my-6 md:my-0 ">
-          <a href="/" className="font-bold text-xl hover:text-[#2B21BA] duration-500">Hjem</a>
+            <Link href="/">
+                <p className="font-bold text-xl hover:text-[#2B21BA] duration-500 cursor-pointer">Hjem</p>
+            </Link>
         </li>
         <li className="mx-4 my-6 md:my-0">
-          <a href="/about" className="font-bold text-xl hover:text-[#2B21BA] duration-500">Om os</a>
+            <Link href="/about">
+                <p className="font-bold text-xl hover:text-[#2B21BA] duration-500 cursor-pointer">Om os</p>
+            </Link>
         </li>
         <li className="mx-4 my-6 md:my-0">
-          <a href="#" className="font-bold text-xl hover:text-[#2B21BA] duration-500">Kontakt</a>
+            <Link href="/contact">
+                <p className="font-bold text-xl hover:text-[#2B21BA] duration-500 cursor-pointer">Kontakt</p>
+            </Link>
         </li>
         </ul>
     </nav>
