@@ -15,9 +15,9 @@ function Footer() {
         </p>
         <div className='flex gap-[4rem] pb-5'>
           {/* Plads til ikoner */}
-          <a href="https://www.instagram.com/svinningegaard_kaal/" target="_blank" title="Instagram"><FaInstagram className='text-2xl cursor-pointer hover:text-blue-600'></FaInstagram></a>
-          <a href="https://www.facebook.com/Nem-mad-med-k%C3%A5l-1565838127062901/" target="_blank" title="Facebook"><FaFacebook className='text-2xl cursor-pointer hover:text-blue-600'></FaFacebook></a>
-          <a href="mailto:svinningegaard@tdcadsl.dk" target="_blank" title="Email"><FaMailBulk className='text-2xl cursor-pointer hover:text-blue-600'></FaMailBulk></a>
+          <a href="https://www.instagram.com/svinningegaard_kaal/" target="_blank" rel="noreferrer" title="Instagram"><FaInstagram className='text-2xl cursor-pointer hover:text-blue-600'></FaInstagram></a>
+          <a href="https://www.facebook.com/Nem-mad-med-k%C3%A5l-1565838127062901/" rel="noreferrer" target="_blank" title="Facebook"><FaFacebook className='text-2xl cursor-pointer hover:text-blue-600'></FaFacebook></a>
+          <a href="mailto:svinningegaard@tdcadsl.dk" target="_blank" rel="noreferrer" title="Email"><FaMailBulk className='text-2xl cursor-pointer hover:text-blue-600'></FaMailBulk></a>
         
         </div>
       </ul>
