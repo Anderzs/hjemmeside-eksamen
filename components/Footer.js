@@ -3,7 +3,8 @@ import {FaInstagram, FaLink} from 'react-icons/fa';
 import {FaTwitter} from 'react-icons/fa';
 import {FaLinkedin} from 'react-icons/fa';
 import {FaYoutube} from 'react-icons/fa';
-
+import {FaFacebook} from 'react-icons/fa';
+import {FaMailBulk} from 'react-icons/fa';
 
 
 function Footer() {
@@ -15,12 +16,11 @@ function Footer() {
         <p className='text-gray-800 font-bold text-3xl pb-6'>
           <span className='text-blue-600'>Svinningegaard</span>
         </p>
-        <div className='flex gap-10 pb-5'>
+        <div className='flex gap-[4rem] pb-5'>
           {/* Plads til ikoner */}
-          <FaInstagram className='text-2xl cursor-pointer hover:text-yellow-600'></FaInstagram>
-          <FaTwitter className='text-2xl cursor-pointer hover:text-yellow-600'></FaTwitter>
-          <FaLinkedin className='text-2xl cursor-pointer hover:text-yellow-600'></FaLinkedin>
-          <FaYoutube className='text-2xl cursor-pointer hover:text-yellow-600'></FaYoutube>
+          <a href="https://www.instagram.com/svinningegaard_kaal/" target="_blank" title="Instagram"><FaInstagram className='text-2xl cursor-pointer hover:text-blue-600'></FaInstagram></a>
+          <a href="https://www.facebook.com/Nem-mad-med-k%C3%A5l-1565838127062901/" target="_blank" title="Facebook"><FaFacebook className='text-2xl cursor-pointer hover:text-blue-600'></FaFacebook></a>
+          <a href="mailto:svinningegaard@tdcadsl.dk" target="_blank" title="Email"><FaMailBulk className='text-2xl cursor-pointer hover:text-blue-600'></FaMailBulk></a>
         
         </div>
       </ul>
