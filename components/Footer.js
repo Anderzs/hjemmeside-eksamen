@@ -1,8 +1,5 @@
 import React from 'react'
 import {FaInstagram, FaLink} from 'react-icons/fa';
-import {FaTwitter} from 'react-icons/fa';
-import {FaLinkedin} from 'react-icons/fa';
-import {FaYoutube} from 'react-icons/fa';
 import {FaFacebook} from 'react-icons/fa';
 import {FaMailBulk} from 'react-icons/fa';
 
@@ -14,7 +11,7 @@ function Footer() {
     <div className='p-5'>
       <ul>
         <p className='text-gray-800 font-bold text-3xl pb-6'>
-          <span className='text-blue-600'>Svinningegaard</span>
+          <span className='text-[#2B21BA]'>Svinningegaard</span>
         </p>
         <div className='flex gap-[4rem] pb-5'>
           {/* Plads til ikoner */}

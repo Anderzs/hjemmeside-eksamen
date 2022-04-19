@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styled from 'styled-components';
+import Content from '../components/Content';
 
 const Hero = styled.div`
   height: 90vh;
@@ -24,8 +25,10 @@ export default function Home() {
         <link rel="icon" href="/pro.ico" />
       </Head>
       
-      <h1 className='bg-teal-100 text-teal-500 text-9xl text-center p-60 font-bold'>
+      <h1 className='bg-teal-100 text-[#41a950] text-7xl text-center p-60 font-bold'>
          <span className='bg-teal-100 text-gray-600'>HER KOMMER</span> KÅL 🥬</h1>
+
+      <Content />
     </>
   )
 }
