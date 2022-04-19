@@ -1,41 +1,32 @@
-import Link from 'next/link';
-import styled from 'styled-components';
+import React from 'react'
 
-const Nav = styled.nav`
-    height: 80px;
-    background: #000;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-`;
-
-const StyledLink = styled.a`
-    padding: 0rem 2rem;
-`;
-
-const Navbar = () => {
+export default function Navbar() {
   return (
-    <Nav>
-        <div>
-            <Link href="/" passHref>
-                <StyledLink>NXT</StyledLink>
-            </Link>
-        </div>
-        <div>
-        <Link href="/" passHref>
-            <StyledLink>Home</StyledLink>
-        </Link>
-        <Link href="/about" passHref>
-            <StyledLink>About</StyledLink>
-        </Link>
-        <Link href="/contact" passHref>
-            <StyledLink>Contact</StyledLink>
-        </Link>
-
-        </div>
-    </Nav>
-  );
-};
-
-export default Navbar
+    <div class="bg-cyan-400">
+    <nav class="p-5 bg-white shadow md:flex md:items-center md:justify-between">
+      <div class="flex justify-between items-center ">
+        <span class="text-2xl font-[Poppins] cursor-pointer">
+          <img class="h-10 inline"
+            src="Billede1.png" />
+        </span>
+  
+        <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+          <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+        </span>
+      </div>
+  
+      <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+        <li class="mx-4 my-6 md:my-0 ">
+          <a href="#" class="text-xl hover:text-cyan-500 duration-500">Hjem</a>
+        </li>
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-xl hover:text-cyan-500 duration-500">Om os</a>
+        </li>
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-xl hover:text-cyan-500 duration-500">Kontakt</a>
+        </li>
+        </ul>
+    </nav>
+    </div>
+  )
+}

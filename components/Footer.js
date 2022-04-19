@@ -13,10 +13,10 @@ function Footer() {
     <div className='p-5'>
       <ul>
         <p className='text-gray-800 font-bold text-3xl pb-6'>
-          stream<span className='text-blue-600'>line</span>
+          <span className='text-blue-600'>Svinningegaard</span>
         </p>
-        <div className='flex gap-6 pb-5'>
-          {/* Space for icons */}
+        <div className='flex gap-10 pb-5'>
+          {/* Plads til ikoner */}
           <FaInstagram className='text-2xl cursor-pointer hover:text-yellow-600'></FaInstagram>
           <FaTwitter className='text-2xl cursor-pointer hover:text-yellow-600'></FaTwitter>
           <FaLinkedin className='text-2xl cursor-pointer hover:text-yellow-600'></FaLinkedin>
@@ -57,10 +57,7 @@ function Footer() {
   </div>
 
   <div className='flex flex-col justify-center items-center text-center p-5 bg-gray-50'>
-  <h1 className='text-gray-800 font-semibold'>© 2022 All rights reserved | Build with 🖤 by{" "}
-  <span className='hover:text-blue-600 font-semibold cursor-pointer'>
-    streamline
-    </span>{" "}
+  <h1 className='text-gray-800 font-semibold'>© 2022 All rights reserved
   </h1>
   </div>
   </>
