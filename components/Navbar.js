@@ -7,8 +7,10 @@ export default function Navbar() {
     <nav className="p-5 bg-gray-50 shadow md:flex md:items-center md:justify-between">
       <div className="flex justify-between items-center ">
         <span className="text-2xl font-[Poppins] cursor-pointer">
-        <a href="/"><img className="h-10 inline hover:scale-125"
-            src="Billede1.png" /></a>
+        <Link href="/">
+            <img className="h-10 inline hover:scale-125"
+            src="Billede1.png" />
+        </Link>
         </span>
   
         <span className="text-3xl cursor-pointer mx-2 md:hidden block">
