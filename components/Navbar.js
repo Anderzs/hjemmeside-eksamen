@@ -24,6 +24,11 @@ export default function Navbar() {
                 <p className="font-bold text-xl hover:text-[#2B21BA] duration-500 cursor-pointer">Hjem</p>
             </Link>
         </li>
+        <li className="mx-4 my-6 md:my-0 ">
+            <Link href="/food">
+                <p className="font-bold text-xl hover:text-[#2B21BA] duration-500 cursor-pointer">Nem mad</p>
+            </Link>
+        </li>
         <li className="mx-4 my-6 md:my-0">
             <Link href="/about">
                 <p className="font-bold text-xl hover:text-[#2B21BA] duration-500 cursor-pointer">Om os</p>
