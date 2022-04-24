@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 import {FaInstagram, FaLink} from 'react-icons/fa';
 import {FaFacebook} from 'react-icons/fa';
@@ -25,10 +26,15 @@ function Footer() {
     <div className='p-5'>
       <ul>
         <p className='text-gray-800 font-bold text-2xl pb-4'>Danske kål fra friland</p>
-        <li className='text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer'>Stocks</li>
-        <li className='text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer'>Futures & Options</li>
-        <li className='text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer'>Mutual Funds</li>
-        <li className='text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer'>Fixed deposits</li>
+        <Link href="/about">
+          <li className='text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer'>Om os</li>
+        </Link>
+        <Link href="/food">
+          <li className='text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer'>Nem mad</li>
+        </Link>
+        <Link href="/contact">
+          <li className='text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer'>Kontakt</li>
+        </Link>
       </ul>
     </div>
     <div className='p-5'>
