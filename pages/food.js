@@ -18,9 +18,9 @@ export default function food() {
       <div className='flex justify-items-start items-center mx-40 gap-10 mt-20'>
         <div className='flex flex-col justify-center'>
           {/* First Block - Pizza*/}
-          <a href='http://www.svinningegaard.dk/nem-mad/pizzabund-med-blomkaal/' target='_blank' rel='norefferer'><img src='pizza.jpeg' className='w-3/5 h-3/5 m-3 p-1 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer block ml-auto mr-auto' /></a>
+          <a href='http://www.svinningegaard.dk/nem-mad/pizzabund-med-blomkaal/' target='_blank' rel='noopener'><img src='pizza.jpeg' className='w-3/5 h-3/5 m-3 p-1 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer block ml-auto mr-auto' /></a>
           <div className='flex justify-center items-center'>
-          <a href='http://www.svinningegaard.dk/nem-mad/pizzabund-med-blomkaal/' target='_blank' rel='norefferer'><h2 className='font-semibold text-lg text-center break-words hover:text-[#2B21BA] cursor-pointer transition-all ease-in duration-250'>Pizza med blomkålsbund, pesto, mozarella, tomat, skinke, cocktailpølser og ananas</h2></a>
+          <a href='http://www.svinningegaard.dk/nem-mad/pizzabund-med-blomkaal/' target='_blank' rel='noopener'><h2 className='font-semibold text-lg text-center break-words hover:text-[#2B21BA] cursor-pointer transition-all ease-in duration-250'>Pizza med blomkålsbund, pesto, mozarella, tomat, skinke, cocktailpølser og ananas</h2></a>
           </div>
           <div>
             <ul className=' px-28 pt-3'>
