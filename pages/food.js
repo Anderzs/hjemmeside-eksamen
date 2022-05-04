@@ -88,9 +88,9 @@ export default function food() {
           </div>
           <div className='flex flex-col justify-center'>
             {/* Third Block - Smoothie */}
-            <a href='http://www.svinningegaard.dk/nem-mad/pastasalat-kylling-spidskaal-paprika-dressing/' rel='norefferer' target='_blank'><img src='pastasalat.jpeg' className='w-3/5 h-3/5 m-3 p-1 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer block ml-auto mr-auto' /></a>
+            <a href='http://www.svinningegaard.dk/nem-mad/pastasalat-kylling-spidskaal-paprika-dressing/' target='_blank' rel='norefferer' title="Pastasalat"><img src='pastasalat.jpeg' className='w-3/5 h-3/5 m-3 p-1 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer block ml-auto mr-auto' /></a>
             <div className='flex justify-center items-center'>
-            <a href='http://www.svinningegaard.dk/nem-mad/pastasalat-kylling-spidskaal-paprika-dressing/' rel='norefferer' target='_blank'><h2 className='font-semibold text-lg text-center break-words hover:text-[#2B21BA] cursor-pointer transition-all ease-in duration-250'>Pastasalat med spidskål, kylling & paprika dressing</h2></a>
+            <a href='http://www.svinningegaard.dk/nem-mad/pastasalat-kylling-spidskaal-paprika-dressing/' target='_blank' rel='norefferer' title='Pastasalat'><h2 className='font-semibold text-lg text-center break-words hover:text-[#2B21BA] cursor-pointer transition-all ease-in duration-250'>Pastasalat med spidskål, kylling & paprika dressing</h2></a>
             </div>
             <div>
             <ul className=' px-28 pt-3'>
