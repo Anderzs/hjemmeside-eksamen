@@ -18,14 +18,14 @@ export default function food() {
       <div className='flex justify-items-start items-center mx-40 gap-10 mt-20'>
         <div className='flex flex-col justify-center'>
           {/* First Block - Pizza*/}
-          <a href='http://www.svinningegaard.dk/nem-mad/pizzabund-med-blomkaal/' rel='norefferer' target='_blank'><img src='pizza.jpeg' className='w-3/5 h-3/5 m-3 p-1 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer block ml-auto mr-auto' /></a>
+          <a href='http://www.svinningegaard.dk/nem-mad/pizzabund-med-blomkaal/' target='_blank' rel='norefferer'><img src='pizza.jpeg' className='w-3/5 h-3/5 m-3 p-1 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer block ml-auto mr-auto' /></a>
           <div className='flex justify-center items-center'>
-          <a href='http://www.svinningegaard.dk/nem-mad/pizzabund-med-blomkaal/' rel='norefferer' target='_blank'><h2 className='font-semibold text-lg text-center break-words hover:text-[#2B21BA] cursor-pointer transition-all ease-in duration-250'>Pizza med blomkålsbund, pesto, mozarella, tomat, skinke, cocktailpølser og ananas</h2></a>
+          <a href='http://www.svinningegaard.dk/nem-mad/pizzabund-med-blomkaal/' target='_blank' rel='norefferer'><h2 className='font-semibold text-lg text-center break-words hover:text-[#2B21BA] cursor-pointer transition-all ease-in duration-250'>Pizza med blomkålsbund, pesto, mozarella, tomat, skinke, cocktailpølser og ananas</h2></a>
           </div>
           <div>
             <ul className=' px-28 pt-3'>
-            <li><svg className="w-8 h-8 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg><span className='pl-1 text-lg'>Personer: 3-4</span></li>
-              <li><svg className="w-8 h-8 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><span className='pl-1 text-lg'>Tid: 40 minutter</span></li>
+            <li><svg className="w-8 h-8 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap='round' stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg><span className='pl-1 text-lg'>Personer: 3-4</span></li>
+              <li><svg className="w-8 h-8 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap='round' stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><span className='pl-1 text-lg'>Tid: 40 minutter</span></li>
             </ul>
           </div>
           
