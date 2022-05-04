@@ -7,7 +7,7 @@ import {RiHeartPulseFill} from 'react-icons/ri';
 export default function Content() {
   return (
     <div className='w-full my-40 h-auto flex flex-col justify-center items-center'>
-    <p className='text-sm uppercase text-gray-400'><a className='text-[#2B21BA] cursor-pointer' target='_blank' rel='noreferrer' href='http://www.svinningegaard.dk'>svinningegaard</a> præsenterer:</p>
+    <p className='text-sm uppercase text-gray-400'><a className='text-[#2B21BA] cursor-pointer' target='_blank' rel='noreferrer' href='http://www.svinningegaard.dk'>svinningegaard</a> præsenterer</p>
     <h1 className='text-[#41a950] text-6xl font-bold text-center'>Gode grunde til at spise kål</h1>
 
     <div className='flex justify-items-start items-center mx-40 gap-10 mt-20'>
