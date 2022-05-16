@@ -7,10 +7,13 @@ export default function Navbar() {
     <nav className="p-5 bg-gray-50 shadow md:flex md:items-center md:justify-between fixed left-0 top-0 w-full">
       <div className="flex justify-between items-center ">
         <span className="text-2xl font-[Poppins] cursor-pointer">
-        <Link href="/">
-            <img className="h-10 inline"
-            src="Billede1.png" />
-        </Link>
+        <Link href="/"><img src='cabbage.png' className='inline h-16 pr-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer ml-auto mr-auto' /></Link>
+        <a href='' rel='norefferer' target='_blank'><img className="inline h-10 pr-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer ml-auto mr-auto"
+            src="Billede1.png" /></a>
+        <img className="h-16 inline px-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer ml-auto mr-auto"
+            src="mansson.png" />
+            <img className="h-16 inline px-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer ml-auto mr-auto"
+            src="cropped-logo2.jpeg" />
         </span>
   
         <span className="text-3xl cursor-pointer mx-2 md:hidden block">

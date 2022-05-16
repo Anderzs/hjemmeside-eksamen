@@ -52,12 +52,12 @@ export default function Content() {
         
       </div>
     </div>
-    <div className='border-double mx-auto my-auto sm:text-left sm:text-sm border-black pb-32'>
+    <div className='border-double mx-auto my-auto sm:text-left sm:text-sm border-black pb-32 pt-10'>
       <h1 className='font-bold text-5xl text-center text-[#41a950]'>De forenede kålavlere</h1>
       <h2 className=' text-gray-400 text-2xl text-center py-2'>Se de forenede kålavlere her</h2>
       <div className='flex gap-32 pt-10'>
         <img src='Billede1.png' className='w-[25%] h-[25%] pt-5 px-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer block ml-auto mr-auto'/>
-        <img src='Nyt_Logo_Mansson_2019.gif' className='w-[30%] h-[30%] px-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer block ml-auto mr-auto'/>
+        <img src='mansson.png' className='w-[30%] h-[30%] px-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer block ml-auto mr-auto'/>
         <img src='cropped-logo2.jpeg' className='w-[25%] h-[25%] px-5 pl-10 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer block ml-auto mr-auto'/>
       </div>
     </div>
