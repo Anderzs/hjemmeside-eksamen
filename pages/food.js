@@ -9,7 +9,7 @@ export default function food() {
     <>
       <Head>
         <title>Svinningegaard - Mad</title>
-        <link rel="icon" href="/cabbage.jpeg" />
+        <link rel="icon" href="/cabbage.png" />
       </Head>
       <div className='w-full my-40 h-auto flex flex-col justify-center items-center md:flex md:items-center md:justify-between'>
       <p className='text-sm uppercase text-gray-400'>I samarbejde med <a className='text-[#2B21BA] cursor-pointer' target='_blank' rel='noreferrer' href='http://www.svinningegaard.dk'>svinningegaard</a></p>
