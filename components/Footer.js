@@ -16,9 +16,9 @@ function Footer() {
         </p>
         <div className='flex gap-[5rem] pb-5 pl-7'>
           {/* Plads til ikoner */}
-          <a href="" rel="noreferrer" title="Instagram"><FaInstagram className='text-2xl cursor-pointer hover:text-blue-600'></FaInstagram></a>
-          <a href="" rel="noreferrer" title="Facebook"><FaFacebook className='text-2xl cursor-pointer hover:text-blue-600'></FaFacebook></a>
-          <a href="" rel="noreferrer" title="Email"><FaMailBulk className='text-2xl cursor-pointer hover:text-blue-600'></FaMailBulk></a>
+          <FaInstagram className='text-2xl cursor-pointer hover:text-blue-600'></FaInstagram>
+          <FaFacebook className='text-2xl cursor-pointer hover:text-blue-600'></FaFacebook>
+          <FaMailBulk className='text-2xl cursor-pointer hover:text-blue-600'></FaMailBulk>
         
         </div>
       </ul>
