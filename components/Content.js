@@ -10,7 +10,7 @@ export default function Content() {
   return (
     <div>
       <div className='w-full my-40 h-auto flex flex-col justify-center items-center '>
-      <p className='text-sm uppercase text-gray-400'><a className='text-[#2B21BA] cursor-pointer' target='_blank' rel='noreferrer' href='http://www.svinningegaard.dk'>svinningegaard</a> præsenterer</p>
+      <p className='text-sm uppercase text-gray-400'><a className='text-[#2B21BA]'>de forenede kålavlere</a> præsenterer</p>
       <h1 className='text-[#41a950] text-6xl font-bold text-center'>Gode grunde til at spise kål</h1>
 
       <div className='flex justify-items-start items-center mx-40 gap-10 mt-20'>
@@ -54,7 +54,7 @@ export default function Content() {
     </div>
     <div className='border-double mx-auto my-auto sm:text-left sm:text-sm border-black pb-32 pt-10'>
       <h1 className='font-bold text-5xl text-center text-[#41a950]'>De forenede kålavlere</h1>
-      <h2 className=' text-gray-400 text-2xl text-center py-2'>Se de forenede kålavlere her</h2>
+      <h2 className=' text-gray-400 text-xl text-center py-2'>De forenede kålavlere er et samarbejde mellem <span className='text-[#41a950]'>Svinningegaard</span>, <span className='text-[#41a950]'>Månsson</span> og <span className='text-[#41a950]'>Kroghs Grønt</span></h2>
       <div className='flex gap-32 pt-10'>
         <img src='Billede1.png' className='w-[25%] h-[25%] pt-5 px-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer block ml-auto mr-auto'/>
         <img src='mansson.png' className='w-[30%] h-[30%] px-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer block ml-auto mr-auto'/>

@@ -8,12 +8,12 @@ export default function Navbar() {
       <div className="flex justify-between items-center ">
         <span className="text-2xl font-[Poppins] cursor-pointer">
         <Link href="/"><img src='cabbage.png' className='inline h-16 pr-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer ml-auto mr-auto' /></Link>
-        <a href='' rel='norefferer' target='_blank'><img className="inline h-10 pr-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer ml-auto mr-auto"
+        <a href='http://www.svinningegaard.dk/' rel='norefferer' target='_blank'><img className="inline h-10 pr-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer ml-auto mr-auto"
             src="Billede1.png" /></a>
-        <img className="h-16 inline px-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer ml-auto mr-auto"
-            src="mansson.png" />
-            <img className="h-16 inline px-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer ml-auto mr-auto"
-            src="cropped-logo2.jpeg" />
+        <a href='https://www.maanssons.dk/' rel='norefferer' target='_blank'><img className="h-16 inline px-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer ml-auto mr-auto"
+            src="mansson.png" /></a>
+        <a href='https://kroghs-groent.dk/' rel='norefferer' target='_blank'><img className="h-16 inline px-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer ml-auto mr-auto"
+            src="cropped-logo2.jpeg" /></a>
         </span>
   
         <span className="text-3xl cursor-pointer mx-2 md:hidden block">
