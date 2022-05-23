@@ -25,7 +25,7 @@ function Footer() {
     </div>
     <div className='p-5'>
       <ul>
-        <p className='text-gray-800 font-bold text-2xl pb-4'>Dansk produceret kål</p>
+        <p className='text-[#2B21BA] font-bold text-2xl pb-4'>Dansk produceret kål</p>
         <Link href="/about">
           <li className='text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer'>Om os</li>
         </Link>
@@ -39,10 +39,10 @@ function Footer() {
     </div>
     <div className='p-5'>
       <ul>
-        <p className='text-gray-800 font-bold text-2xl pb-4'>Kontakt</p>
+        <p className='text-[#2B21BA] font-bold text-2xl pb-4'>Kontakt</p>
         <div className='text-gray-500 text-md pb-2 font-semibold'>
           <li>Adresse:</li>
-          <li>De forenede kålavlere v. Anders Balleby</li>
+          <li>De forenede kålavlere</li>
           <li>Døesvej 70</li>
           <li>7500 Holstebro</li>
         </div>

@@ -10,7 +10,7 @@ export default function Content() {
   return (
     <div>
       <div className='w-full my-40 h-auto flex flex-col justify-center items-center '>
-      <p className='text-sm uppercase text-gray-400'><a className='text-[#2B21BA]'>de forenede kålavlere</a> præsenterer</p>
+      <p className='text-sm uppercase text-gray-400'><a className='text-[#2B21BA] '>de forenede kålavlere</a> præsenterer</p>
       <h1 className='text-[#41a950] text-6xl font-bold text-center'>Gode grunde til at spise kål</h1>
 
       <div className='flex justify-items-start items-center mx-40 gap-10 mt-20'>
@@ -18,7 +18,7 @@ export default function Content() {
           {/* First Block */}
           <div className='flex justify-center items-center'>
             <GiCabbage className='w-10 h-10 text-[#41a950] m-3 p-1 rounded-md shadow-xl' />
-            <h2 className='text-xl text-[#2B21BA] font-semibold'>Kål er dejligt mættende</h2>
+            <h2 className='text-xl text-[#41a950] font-semibold'>Kål er dejligt mættende</h2>
           </div>
           <p className='md:text-base text-gray-400 md-text-center sm:text-left sm:text-sm'>Kål er en mættende ingrediens til dine måltider. Når man spiser kål, behøver det ikke være den kedelige salat uden smag. Du kan tilføje kål til dine måltider på mange måder, uden du lægger mærke til en forskel! </p>
         </div>
@@ -26,7 +26,7 @@ export default function Content() {
           {/* Second Block */}
           <div className='flex justify-center items-center'>
             <GiFarmTractor className='w-10 h-10 text-[#41a950] m-3 p-1 shadow-xl rounded-md' />
-            <h2 className='text-xl text-[#2B21BA] font-semibold'>Et godt økonomisk alternativ</h2>
+            <h2 className='text-xl text-[#41a950] font-semibold'>Et godt økonomisk alternativ</h2>
           </div>
           <p className='md:text-base text-gray-400 md-text-center sm:text-left sm:text-sm'>Kål er et fantastisk økonomisk alternativ til andre fødevarer. Det er det naturlige valg for at passe på din sundhed, ved at undgå fødevarer sprøjtet med syntetiske pesticider og tilsætningsstoffer</p>
         </div>
@@ -37,7 +37,7 @@ export default function Content() {
           {/* First Block */}
           <div className='flex justify-center items-center'>
             <BiRun className='w-10 h-10 text-[#41a950] m-3 p-1 rounded-md shadow-xl' />
-            <h2 className='text-xl text-[#2B21BA] font-semibold'>Skønt til en travl hverdag</h2>
+            <h2 className='text-xl text-[#41a950] font-semibold'>Skønt til en travl hverdag</h2>
           </div>
           <p className='md:text-base text-gray-400 md-text-center sm:text-left sm:text-sm'>Det er ikke alle der har tid til at forberede et lækkert og sundt måltid, når hverdagens pligter står på. Så er det godt, at kål er en enestående ingrediens, som ikke kræver meget tid i køkkenet, for at lave super simple retter. Se eksempler på lækre retter <span className='text-[#2B21BA] font-semibold' ><Link href='/food'>her</Link> </span></p>
         </div>
@@ -45,7 +45,7 @@ export default function Content() {
           {/* Second Block */}
           <div className='flex justify-center items-center'>
             <GiOpenedFoodCan className='w-10 h-10 text-[#41a950] m-3 p-1 shadow-xl rounded-md' />
-            <h2 className='text-xl text-[#2B21BA] font-semibold'>Indeholder vitaminer og næringsstoffer</h2>
+            <h2 className='text-xl text-[#41a950] font-semibold'>Indeholder vitaminer og næringsstoffer</h2>
           </div>
           <p className='md:text-base text-gray-400 md:text-center sm:text-left sm:text-sm'>Kål er proppet med vitaminer og gode næringsstoffer for kroppen. De forskellige kåltyper har alle deres gode egenskaber for kroppen, så du kan eksperimentere med dem og gøre god nytte af mulighederne</p>
         </div>

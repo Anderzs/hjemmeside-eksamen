@@ -20,7 +20,7 @@ export default function food() {
           {/* First Block - Pizza */}
           <a href='http://www.svinningegaard.dk/nem-mad/pizzabund-med-blomkaal/' target='_blank' rel='noreferrer'><img src='pizza.jpeg' className='w-3/5 h-3/5 m-3 p-1 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer block ml-auto mr-auto' /></a>
           <div className='flex justify-center items-center'>
-          <a href='http://www.svinningegaard.dk/nem-mad/pizzabund-med-blomkaal/' target='_blank' rel='noreferrer'><h2 className='font-semibold text-lg text-center break-words hover:text-[#2B21BA] cursor-pointer transition-all ease-in duration-250'>Pizza med blomkålsbund, pesto, mozarella, tomat, skinke, cocktailpølser og ananas</h2></a>
+          <a href='http://www.svinningegaard.dk/nem-mad/pizzabund-med-blomkaal/' target='_blank' rel='noreferrer'><h2 className='text-[#41a950] font-semibold text-lg text-center break-words hover:text-[#2B21BA] cursor-pointer transition-all ease-in duration-250'>Pizza med blomkålsbund, pesto, mozarella, tomat, skinke, cocktailpølser og ananas</h2></a>
           </div>
           <div>
             <ul className=' px-28 pt-3'>
@@ -34,7 +34,7 @@ export default function food() {
           {/* Second Block - Burger */}
           <a href='http://www.svinningegaard.dk/nem-mad/nem-burger-coleslaw-salatkaal/' rel='noreferrer' target='_blank'><img src='burger.jpeg' className='w-3/5 h-3/5 m-3 p-1 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer block ml-auto mr-auto' /></a>
           <div className='flex justify-center items-center'>
-          <a href='http://www.svinningegaard.dk/nem-mad/nem-burger-coleslaw-salatkaal/' rel='noreferrer' target='_blank'><h2 className='font-semibold text-lg text-center break-words hover:text-[#2B21BA] cursor-pointer transition-all ease-in duration-250'>Nem burger med coleslaw af salatkål eller spidskål</h2></a>
+          <a href='http://www.svinningegaard.dk/nem-mad/nem-burger-coleslaw-salatkaal/' rel='noreferrer' target='_blank'><h2 className='text-[#41a950] font-semibold text-lg text-center break-words hover:text-[#2B21BA] cursor-pointer transition-all ease-in duration-250'>Nem burger med coleslaw af salatkål eller spidskål</h2></a>
           </div>
           <div>
             <ul className=' px-28 pt-3'>
@@ -49,7 +49,7 @@ export default function food() {
             {/* Third Block - Smoothie */}
             <a href='http://www.svinningegaard.dk/nem-mad/nem-smoothie-spidskaal-mango/' rel='noreferrer' target='_blank'><img src='smoothie.jpeg' className='w-3/5 h-3/5 m-3 p-1 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer block ml-auto mr-auto' /></a>
             <div className='flex justify-center items-center'>
-            <a href='http://www.svinningegaard.dk/nem-mad/nem-smoothie-spidskaal-mango/' rel='noreferrer' target='_blank'><h2 className='font-semibold text-lg text-center break-words hover:text-[#2B21BA] cursor-pointer transition-all ease-in duration-250'>Smoothie med spidskål & mango</h2></a>
+            <a href='http://www.svinningegaard.dk/nem-mad/nem-smoothie-spidskaal-mango/' rel='noreferrer' target='_blank'><h2 className='text-[#41a950] font-semibold text-lg text-center break-words hover:text-[#2B21BA] cursor-pointer transition-all ease-in duration-250'>Smoothie med spidskål & mango</h2></a>
             </div>
             <div>
             <ul className=' px-28 pt-3'>
@@ -62,7 +62,7 @@ export default function food() {
             {/* Third Block - Smoothie */}
             <a href='http://www.svinningegaard.dk/nem-mad/blomkaal-i-ovnen-med-ost-parmaskinke/' rel='noreferrer' target='_blank'><img src='blomkål.jpeg' className='w-3/5 h-3/5 m-3 p-1 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer block ml-auto mr-auto' /></a>
             <div className='flex justify-center items-center'>
-            <a href='http://www.svinningegaard.dk/nem-mad/blomkaal-i-ovnen-med-ost-parmaskinke/' rel='noreferrer' target='_blank'><h2 className='font-semibold text-lg text-center break-words hover:text-[#2B21BA] cursor-pointer transition-all ease-in duration-250'>Blomkål i ovnen med Ost & Parmaskinke</h2></a>
+            <a href='http://www.svinningegaard.dk/nem-mad/blomkaal-i-ovnen-med-ost-parmaskinke/' rel='noreferrer' target='_blank'><h2 className='text-[#41a950] font-semibold text-lg text-center break-words hover:text-[#2B21BA] cursor-pointer transition-all ease-in duration-250'>Blomkål i ovnen med Ost & Parmaskinke</h2></a>
             </div>
             <div>
             <ul className=' px-28 pt-3'>
@@ -77,7 +77,7 @@ export default function food() {
             {/* Third Block - Smoothie */}
             <a href='http://www.svinningegaard.dk/nem-mad/wok-med-kaal-kylling-soed-mango-chutney/' rel='noreferrer' target='_blank'><img src='wok.jpeg' className='w-3/5 h-3/5 m-3 p-1 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer block ml-auto mr-auto' /></a>
             <div className='flex justify-center items-center'>
-            <a href='http://www.svinningegaard.dk/nem-mad/wok-med-kaal-kylling-soed-mango-chutney/' rel='noreferrer' target='_blank'><h2 className='font-semibold text-lg text-center break-words hover:text-[#2B21BA] cursor-pointer transition-all ease-in duration-250'>Wok med Kål, Kylling og Sød Mango Chutney</h2></a>
+            <a href='http://www.svinningegaard.dk/nem-mad/wok-med-kaal-kylling-soed-mango-chutney/' rel='noreferrer' target='_blank'><h2 className='text-[#41a950] font-semibold text-lg text-center break-words hover:text-[#2B21BA] cursor-pointer transition-all ease-in duration-250'>Wok med Kål, Kylling og Sød Mango Chutney</h2></a>
             </div>
             <div>
             <ul className=' px-28 pt-3'>
@@ -90,7 +90,7 @@ export default function food() {
             {/* Third Block - Smoothie */}
             <a href='http://www.svinningegaard.dk/nem-mad/pastasalat-kylling-spidskaal-paprika-dressing/' target='_blank' rel='noreferrer' title="Pastasalat"><img src='pastasalat.jpeg' className='w-3/5 h-3/5 m-3 p-1 shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer block ml-auto mr-auto' /></a>
             <div className='flex justify-center items-center'>
-            <a href='http://www.svinningegaard.dk/nem-mad/pastasalat-kylling-spidskaal-paprika-dressing/' target='_blank' rel='noreferrer' title="Pastasalat"><h2 className='font-semibold text-lg text-center break-words hover:text-[#2B21BA] cursor-pointer transition-all ease-in duration-250'>Pastasalat med spidskål, kylling & paprika dressing</h2></a>
+            <a href='http://www.svinningegaard.dk/nem-mad/pastasalat-kylling-spidskaal-paprika-dressing/' target='_blank' rel='noreferrer' title="Pastasalat"><h2 className='text-[#41a950] font-semibold text-lg text-center break-words hover:text-[#2B21BA] cursor-pointer transition-all ease-in duration-250'>Pastasalat med spidskål, kylling & paprika dressing</h2></a>
             </div>
             <div>
             <ul className=' px-28 pt-3'>
