@@ -20,7 +20,7 @@ function ContactForm() {
         <div className='flex justify-center items-center flex-col my-10'>
             <div className='pb-9 text-center mt-28'>
                 <h1 className='text-6xl font-bold text-[#41a950]'>Skriv en besked</h1>
-                <h2 className='pt-2 text-gray-400'>Vi skal nok svare, hvis vi orker, eller nej egentlig ikke 💀</h2>
+                <h2 className='pt-2 text-gray-400'>Skriv en besked og få svar via din mail</h2>
             </div>
             <div className='w-2/5 p-6 rounded-lg shadow-2xl' >
                 <form className='mx-auto'>

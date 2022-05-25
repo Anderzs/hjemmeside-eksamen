@@ -8,7 +8,7 @@ export default function food() {
   return (
     <>
       <Head>
-        <title>Svinningegaard - Mad</title>
+        <title>De forenede kålavlere</title>
         <link rel="icon" href="/cabbage.png" />
       </Head>
       <div className='w-full my-40 h-auto flex flex-col justify-center items-center md:flex md:items-center md:justify-between'>

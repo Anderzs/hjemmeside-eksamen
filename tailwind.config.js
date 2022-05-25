@@ -4,7 +4,11 @@ module.exports = {
     "./components/**/*.{js,jsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'plakat_bg': "url('../plakat_baggrund.jpeg')",
+      })
+    },
   },
   plugins: [],
 }

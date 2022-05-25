@@ -12,6 +12,7 @@ export default function Content() {
       <div className='w-full my-40 h-auto flex flex-col justify-center items-center '>
       <p className='text-sm uppercase text-gray-400'><a className='text-[#2B21BA] '>de forenede kålavlere</a> præsenterer</p>
       <h1 className='text-[#41a950] text-6xl font-bold text-center'>Gode grunde til at spise kål</h1>
+      <p className='text-gray-600 text-lg pt-5'>Vidste du, at...</p>
 
       <div className='flex justify-items-start items-center mx-40 gap-10 mt-20'>
         <div className='flex flex-col justify-center items-center'>
@@ -58,7 +59,7 @@ export default function Content() {
       <div className='flex gap-32 pt-10'>
         <img src='Billede1.png' className='w-[25%] h-[25%] pt-5 px-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer block ml-auto mr-auto'/>
         <img src='mansson.png' className='w-[30%] h-[30%] px-5 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer block ml-auto mr-auto'/>
-        <img src='cropped-logo2.jpeg' className='w-[25%] h-[25%] px-5 pl-10 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer block ml-auto mr-auto'/>
+        <img src='cropped-logo2.png' className='w-[25%] h-[25%] px-5 pl-10 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 cursor-pointer block ml-auto mr-auto'/>
       </div>
     </div>
 
